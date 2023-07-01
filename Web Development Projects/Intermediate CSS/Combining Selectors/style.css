@@ -1,0 +1,23 @@
+/* Write your code here: */
+/*Group = Apply the same style to several Selectors*/
+h1,
+h2 {
+  color: blueviolet;
+}
+
+/*Child = Apply the style to the direct child selector of left side*/
+.box > p {
+  color: firebrick;
+}
+/*Descendant = APply to a descendent of left side*/
+.box li {
+  color: blue;
+}
+/*Chaining = Apply where ALL selecters are true*/
+li.done {
+  color: seagreen;
+}
+/*Combining combiners*/
+ul p.done {
+  font-size: 0.5rem;
+}
