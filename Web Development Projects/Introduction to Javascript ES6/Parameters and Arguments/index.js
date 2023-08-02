@@ -21,10 +21,11 @@ function getMilk(money) {
   console.log("moveLeft");
   console.log("moveLeft");
   console.log("enterHouse");
-  return money % 1.5;
+  return money % 1.5; //remainder of this division (part 3)
 }
 
-var change = getMilk(5);
+var change = getMilk(5); //(part 3)
+console.log(change); //(part 3)
 
 // Another function for the exercise.
 
