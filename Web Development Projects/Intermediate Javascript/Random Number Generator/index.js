@@ -9,6 +9,14 @@ if (n > 70) {
   alert(
     "Your lovescore is " + n + "%. You love eachother like Kanye loves Kanye."
   );
-} else {
+  
+} 
+
+if (n > 30 && n <= 70) {
   alert("Your lovescore is " + n + "%.");
+
+}
+
+if {
+  alert("Your lovescore is " + n + "%. You go together like oil and water.");
 }
