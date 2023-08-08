@@ -5,4 +5,10 @@ var n = Math.random();
 n = n * 100;
 n = Math.floor(n) + 1;
 
-alert("You are " + n + "% compatible.");
+if (n > 70) {
+  alert(
+    "Your lovescore is " + n + "%. You love eachother like Kanye loves Kanye."
+  );
+} else {
+  alert("Your lovescore is " + n + "%.");
+}
