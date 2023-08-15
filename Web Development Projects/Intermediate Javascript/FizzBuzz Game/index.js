@@ -17,10 +17,9 @@ if (yourNumber % 3 === 0) {
 //Another version of it where it counts for itself. Runs by calling fizzBuzz() in the console.
 
 var output = [];
-var count = 1;
 
 function fizzBuzz() {
-  while (count <= 100) {
+  for (var count = 1; count <= 100; count++) {
     if (count % 3 === 0) {
       if (count % 5 === 0) {
         output.push("FizzBuzz");
@@ -32,7 +31,6 @@ function fizzBuzz() {
     } else {
       output.push(count);
     }
-    count++;
   }
   console.log(output);
 }
